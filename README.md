@@ -63,10 +63,33 @@ https://github.com/nunnunnana/GP_project/blob/93c65d2d0491ee89759c3d5f39709ec403
 - 자동차 객체를 찾아서 굴절 효과를 주는 변수를 가져오고 자동차에 속도에 따라 변수 값 변경
 https://github.com/nunnunnana/GP_project/blob/93c65d2d0491ee89759c3d5f39709ec403146a24/GP_project/Assets/Azerilo/QuadViewScript.cs#L20
 
-<img src="https://github.com/nunnunnana/GP_project/assets/99165741/33da9c2d-bbaa-4008-bd78-53be4349223b.png" width="900" height="250"/>
+<img src="https://github.com/nunnunnana/GP_project/assets/99165741/33da9c2d-bbaa-4008-bd78-53be4349223b.png" width="900" height="200"/>
 
 
 ### 자동차 조작, 시점 구현
 
+- 자동차 객체 스크립트
+https://github.com/nunnunnana/GP_project/blob/56a322a0f51474b763fcc708ce55c4608710c226/GP_project/Assets/Azerilo/Car.cs#L14
+
+- 조향 기능
+https://github.com/nunnunnana/GP_project/blob/56a322a0f51474b763fcc708ce55c4608710c226/GP_project/Assets/Azerilo/HandleRoll.cs#L5
+
+- 시점 스크립트
+https://github.com/nunnunnana/GP_project/blob/56a322a0f51474b763fcc708ce55c4608710c226/GP_project/Assets/Azerilo/Cm_Script.cs#L5
+
 ### 미니어처 효과
+
+- 카메라와 자동차 사이에 Plane 2개 생성
+<img src="https://github.com/nunnunnana/GP_project/assets/99165741/a7d6a394-3e7b-4fba-b074-09053bee2644.png" width="400" height="300"/>
+
+- 가우시안 알고리즘을 사용해 원본 이미지를 부드럽게 변경
+- 2-pass를 이용해서 가로 방향으로 블러처리 후 그 다음 화면에 세로 방향으로 블러처리
+
+- 가로 방향 블러처리
+https://github.com/nunnunnana/GP_project/blob/56a322a0f51474b763fcc708ce55c4608710c226/GP_project/Assets/Azerilo/Blur.shader#L37
+
+- 세로 방향 블러처리
+https://github.com/nunnunnana/GP_project/blob/56a322a0f51474b763fcc708ce55c4608710c226/GP_project/Assets/Azerilo/Blur.shader#L88
+
+<img src="https://github.com/nunnunnana/GP_project/assets/99165741/7028bed4-6cfe-40df-b2c8-a1f9c2909757.png" width="700" height="300"/>
 
