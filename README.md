@@ -38,7 +38,7 @@ https://github.com/nunnunnana/GP_project/blob/93c65d2d0491ee89759c3d5f39709ec403
 
 - 입력 값에 따라 머트리얼 적용
 
-https://github.com/nunnunnana/GP_project/blob/93c65d2d0491ee89759c3d5f39709ec403146a24/GP_project/Assets/Azerilo/lightScript.cs#L18
+https://github.com/nunnunnana/GP_project/blob/93c65d2d0491ee89759c3d5f39709ec403146a24/GP_project/Assets/Azerilo/lightScript.cs#L18-L36
 
 <img src="https://github.com/nunnunnana/GP_project/assets/99165741/b8de3e27-01a6-4ec8-b924-6a424034c688.png" width="900" height="250"/>
 
@@ -61,7 +61,7 @@ https://github.com/nunnunnana/GP_project/blob/93c65d2d0491ee89759c3d5f39709ec403
 https://github.com/nunnunnana/GP_project/blob/93c65d2d0491ee89759c3d5f39709ec403146a24/GP_project/Assets/Azerilo/QuadView.shader#L1
 
 - 자동차 객체를 찾아서 굴절 효과를 주는 변수를 가져오고 자동차에 속도에 따라 변수 값 변경
-https://github.com/nunnunnana/GP_project/blob/93c65d2d0491ee89759c3d5f39709ec403146a24/GP_project/Assets/Azerilo/QuadViewScript.cs#L20
+https://github.com/nunnunnana/GP_project/blob/93c65d2d0491ee89759c3d5f39709ec403146a24/GP_project/Assets/Azerilo/QuadViewScript.cs#L13-L37
 
 <img src="https://github.com/nunnunnana/GP_project/assets/99165741/33da9c2d-bbaa-4008-bd78-53be4349223b.png" width="900" height="200"/>
 
@@ -69,13 +69,13 @@ https://github.com/nunnunnana/GP_project/blob/93c65d2d0491ee89759c3d5f39709ec403
 ### 자동차 조작, 시점 구현
 
 - 자동차 객체 스크립트
-https://github.com/nunnunnana/GP_project/blob/56a322a0f51474b763fcc708ce55c4608710c226/GP_project/Assets/Azerilo/Car.cs#L14
+https://github.com/nunnunnana/GP_project/blob/93c65d2d0491ee89759c3d5f39709ec403146a24/GP_project/Assets/Azerilo/Car.cs#L14-L73
 
 - 조향 기능
-https://github.com/nunnunnana/GP_project/blob/56a322a0f51474b763fcc708ce55c4608710c226/GP_project/Assets/Azerilo/HandleRoll.cs#L5
+https://github.com/nunnunnana/GP_project/blob/93c65d2d0491ee89759c3d5f39709ec403146a24/GP_project/Assets/Azerilo/HandleRoll.cs#L14-L28
 
 - 시점 스크립트
-https://github.com/nunnunnana/GP_project/blob/56a322a0f51474b763fcc708ce55c4608710c226/GP_project/Assets/Azerilo/Cm_Script.cs#L5
+https://github.com/nunnunnana/GP_project/blob/93c65d2d0491ee89759c3d5f39709ec403146a24/GP_project/Assets/Azerilo/Cm_Script.cs#L11-L30
 
 ### 미니어처 효과
 
@@ -86,10 +86,10 @@ https://github.com/nunnunnana/GP_project/blob/56a322a0f51474b763fcc708ce55c46087
 - 2-pass를 이용해서 가로 방향으로 블러처리 후 그 다음 화면에 세로 방향으로 블러처리
 
 - 가로 방향 블러처리
-https://github.com/nunnunnana/GP_project/blob/56a322a0f51474b763fcc708ce55c4608710c226/GP_project/Assets/Azerilo/Blur.shader#L37
+https://github.com/nunnunnana/GP_project/blob/93c65d2d0491ee89759c3d5f39709ec403146a24/GP_project/Assets/Azerilo/Blur.shader#L37-L58
 
 - 세로 방향 블러처리
-https://github.com/nunnunnana/GP_project/blob/56a322a0f51474b763fcc708ce55c4608710c226/GP_project/Assets/Azerilo/Blur.shader#L88
+https://github.com/nunnunnana/GP_project/blob/93c65d2d0491ee89759c3d5f39709ec403146a24/GP_project/Assets/Azerilo/Blur.shader#L88-L105
 
 <img src="https://github.com/nunnunnana/GP_project/assets/99165741/7028bed4-6cfe-40df-b2c8-a1f9c2909757.png" width="700" height="300"/>
 
